@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Form</title>
+  </head>
+  <body>
+    <h2>Student Registration Form</h2>
+    <form action="">
+ 
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name" /><br /><br />
+
+     
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter your email" /><br /><br />
+
+      
+      <label for="password">Password:</label>
+      <input type="password" id="password" placeholder="Enter password" /><br /><br />
+
+      
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" placeholder="Enter phone number" /><br /><br />
+
+    
+      <label for="age">Age:</label>
+      <input type="number" id="age" min="1" max="100" /><br /><br />
+
+      
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" /><br /><br />
+
+      <label for="time">Preferred Time:</label>
+      <input type="time" id="time" /><br /><br />
+
+      
+      <label for="color">Favorite Color:</label>
+      <input type="color" id="color" /><br /><br />
+
+      
+      <label for="range">Satisfaction (1–100):</label>
+      <input type="range" id="range" min="1" max="100" /><br /><br />
+
+     
+      <label>
+        <input type="checkbox" /> I agree to the terms and conditions
+      </label><br /><br />
+
+      
+      <p>Result:</p>
+      <label><input type="radio" name="result" value="pass" /> Pass</label>
+      <label><input type="radio" name="result" value="fail" /> Fail</label><br /><br />
+
+      
+      <label for="city">Select City:</label>
+      <select name="city" id="city">
+        <option value="ahmedabad">Ahmedabad</option>
+        <option value="mumbai" selected>Mumbai</option>
+        <option value="delhi">Delhi</option>
+      </select><br /><br />
+
+      
+      <label for="file">Upload File:</label>
+      <input type="file" id="file" /><br /><br />
+
+     
+      <label for="msg">Message:</label><br />
+      <textarea id="msg" cols="40" rows="5" placeholder="Write your message here..."></textarea><br /><br />
+
+      
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Reset" />
+    </form>
+  </body>
+</html>
