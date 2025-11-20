@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    height: 800px;
+    width: 1000px;
+    border: 5px solid black;
+    margin: auto;
+    margin-top: 80px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 2px solid pink;
+}
+
+#box-1 {
+  order: 1;
+}
+
+#box-5 {
+  order: 2;
+}
+
+#box-4 {
+  flex-grow: 2;
+  flex-shrink: 3;
+}
+
+#box-6 {
+  flex-basis: 300px;
+}
+
+#box-7 {
+  align-content: end;
+}
+
+#box-8 {
+  align-self: flex-end;
+}
