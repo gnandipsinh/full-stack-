@@ -1,0 +1,81 @@
+
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    background-color: #333; 
+    color: white;
+}
+
+h2 {
+    border-bottom: 1px solid #555;
+    padding-bottom: 10px;
+}
+
+
+.container {
+    display: flex; 
+    background-color: #efff00; 
+    border: 2px solid #fff;
+    padding: 10px;
+    margin-bottom: 30px;
+    gap: 5px;
+    width: 100%;
+}
+
+.item {
+    background-color: #ffe4b5; 
+    border: 1px solid black;
+    padding: 20px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.grow-example .item {
+    flex-basis: 100px; 
+    flex-grow: 1;      
+}
+
+.grow-example .grow-item {
+    flex-grow: 3;      
+    background-color: #ff8c00; 
+}
+
+
+.shrink-example .item {
+    width: 300px; 
+    flex-shrink: 1; 
+}
+
+.shrink-example .shrink-item {
+    flex-shrink: 3; 
+    background-color: #ff6347; 
+}
+
+
+
+.align-example {
+    height: 200px; 
+    align-items: flex-start; 
+}
+
+.align-example .start {
+    align-self: flex-start;
+}
+
+.align-example .center {
+    align-self: center;
+    background-color: #87ceeb; 
+}
+
+.align-example .end {
+    align-self: flex-end;
+    background-color: #90ee90; 
+}
+
+.align-example .stretch {
+    align-self: stretch;
+    height: auto; 
+    background-color: #dda0dd;
+}
