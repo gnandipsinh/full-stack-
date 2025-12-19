@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    /* max-width: 1200px; */
+    /* margin: auto; */
+    padding: 20px;
+    border: 2px solid #000;
+    height:830px;
+    margin-top: 20px;
+    text-align: center;
+    /* align-items: center; */
+    font-size: 25px;
+    font-weight: bold;
+    border: double;
+    /* background-color: green; */
+
+}
+
+.row{
+    border: 1px solid red;
+    height: 200px;
+    border: double;
+}
+
+.col,.col-md-6,.col-md-3{
+    border: 1px solid blue;
+    height: 200px;
+    border: double;
+}
+

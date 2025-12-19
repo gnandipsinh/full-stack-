@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+  
+    gap: 20px;
+}   
+
+h1{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.container,.container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl{
+   margin: auto;
+   border: 2px solid black;
+   
+}
