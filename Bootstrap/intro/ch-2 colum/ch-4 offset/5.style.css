@@ -1,0 +1,42 @@
+.accordion-1{
+    background:#ff6f61;
+    height:350px;
+    color:white;
+    font-size:25px;
+    padding-top:150px;
+}
+
+.accordion-2{
+    background:#6a5acd;
+    height:350px;
+    color:white;
+    font-size:25px;
+    padding-top:150px;
+}
+
+.active-1{
+    background:#20b2aa;
+    height:300px;
+    margin-top:20px;
+    color:white;
+    font-size:25px;
+    padding-top:120px;
+}
+
+.active-2{
+    background:#ffb300;
+    height:300px;
+    margin-top:20px;
+    color:black;
+    font-size:25px;
+    padding-top:120px;
+}
+
+.active-3{
+    background:#4b5320;
+    height:300px;
+    margin-top:20px;
+    color:white;
+    font-size:25px;
+    padding-top:120px;
+}
