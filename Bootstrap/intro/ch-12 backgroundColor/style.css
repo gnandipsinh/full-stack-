@@ -1,0 +1,15 @@
+.container{
+    border: 1px solid black;
+}
+
+.row{
+    border-radius:10px ;
+}
+
+.col{
+    border-radius: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
