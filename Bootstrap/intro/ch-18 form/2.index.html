@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap Form</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+
+  <div class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+
+        <form class="bg-primary text-white p-4 rounded shadow">
+
+          <h3 class="text-center mb-4">User Form</h3>
+
+          
+          <div class="mb-3">
+            <label class="form-label">This is your Name</label>
+            <input type="text" class="form-control" placeholder="Enter your name">
+          </div>
+
+          
+          <div class="mb-3">
+            <label class="form-label">This is your Email</label>
+            <input type="email" class="form-control" value="gyandipsinh@123gamail.com" readonly>
+          </div>
+
+       
+          <div class="mb-3">
+            <label class="form-label">This is your Number</label>
+            <input type="number" class="form-control" placeholder="Enter number">
+            <div class="form-text text-light">+91 .............</div>
+          </div>
+
+          
+          <div class="mb-3">
+            <label class="form-label">Large Input</label>
+            <input type="text" class="form-control form-control-lg" placeholder="lg size">
+          </div>
+
+         
+          <div class="mb-3">
+            <label class="form-label">Small Input</label>
+            <input type="text" class="form-control form-control-sm" placeholder="sm size">
+          </div>
+
+         
+          <div class="mb-3">
+            <label class="form-label">Upload File</label>
+            <input type="file" class="form-control">
+          </div>
+
+          
+          <div class="mb-3">
+            <label class="form-label d-block">Select Option</label>
+
+            <div class="form-check form-check-inline">
+              <input type="radio" class="form-check-input" name="answer">
+              <label class="form-check-label">Yes</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+              <input type="radio" class="form-check-input" name="answer">
+              <label class="form-check-label">No</label>
+            </div>
+          </div>
+
+          
+          <div class="mb-3">
+            <label class="form-label">Option Select</label>
+            <input type="text" class="form-control" list="datalist" placeholder="Choose city">
+            <datalist id="datalist">
+              <option value="Talaja">
+              <option value="Tanasaa">
+              <option value="Mahuva">
+              <option value="Bhavnagar">
+            </datalist>
+          </div>
+
+          
+          <div class="mb-4 form-floating text-dark">
+            <input type="email" class="form-control" id="floatingInput" placeholder="email">
+            <label for="floatingInput">This is your Email</label>
+          </div>
+
+          <div class="d-grid">
+            <button type="submit" class="btn btn-light fw-bold">
+              Submit
+            </button>
+          </div>
+
+        </form>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
