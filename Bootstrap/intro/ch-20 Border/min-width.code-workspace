@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "../min-width"
+		},
+		{
+			"path": "../Badge"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../Spinner"
+		},
+		{
+			"path": "../Alert!"
+		},
+		{
+			"path": "../max-width"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Badge"
+	}
+}

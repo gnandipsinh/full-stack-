@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced Alerts</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <style>
+        body {
+            background: #000;
+        }
+
+        .alert-advanced {
+            position: relative;
+            padding-left: 60px;
+            border-radius: 8px;
+            border: none;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+        }
+
+        .alert-advanced::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 8px;
+            border-radius: 8px 0 0 8px;
+        }
+
+        .alert-primary::before { background: #0d6efd; }
+        .alert-secondary::before { background: #6c757d; }
+        .alert-success::before { background: #198754; }
+        .alert-danger::before { background: #dc3545; }
+        .alert-warning::before { background: #ffc107; }
+        .alert-info::before { background: #0dcaf0; }
+        .alert-light::before { background: #adb5bd; }
+        .alert-dark::before { background: #212529; }
+
+        .alert-icon {
+            position: absolute;
+            left: 18px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 1.4rem;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container py-5">
+
+        <h3 class="text-center text-white mb-4">Advanced Alerts</h3>
+
+        <div class="alert alert-primary alert-advanced text-primary">
+            <i class="bi bi-info-circle alert-icon"></i>
+            <strong>Primary Alert:</strong> This is an advanced primary alert.
+        </div>
+
+        <div class="alert alert-secondary alert-advanced text-secondary">
+            <i class="bi bi-layers alert-icon"></i>
+            <strong>Secondary Alert:</strong> Advanced secondary message.
+        </div>
+
+        <div class="alert alert-success alert-advanced text-success">
+            <i class="bi bi-check-circle alert-icon"></i>
+            <strong>Success Alert:</strong> Operation completed successfully.
+        </div>
+
+        <div class="alert alert-danger alert-advanced text-danger">
+            <i class="bi bi-x-circle alert-icon"></i>
+            <strong>Danger Alert:</strong> Something went wrong.
+        </div>
+
+        <div class="alert alert-warning alert-advanced text-warning">
+            <i class="bi bi-exclamation-triangle alert-icon"></i>
+            <strong>Warning Alert:</strong> Please check your input.
+        </div>
+
+        <div class="alert alert-info alert-advanced text-info">
+            <i class="bi bi-bell alert-icon"></i>
+            <strong>Info Alert:</strong> New updates available.
+        </div>
+
+        <div class="alert alert-light alert-advanced text-dark">
+            <i class="bi bi-sun alert-icon"></i>
+            <strong>Light Alert:</strong> Neutral information.
+        </div>
+
+        <div class="alert alert-dark alert-advanced bg-secondary text-dark">
+            <i class="bi bi-moon alert-icon"></i>
+            <strong>Dark Alert:</strong> System message.
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
